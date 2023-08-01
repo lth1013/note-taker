@@ -1,13 +1,52 @@
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+# Workday Planner
+
+## Technology Used 
+
+| Technology Used         | Resource URL           | 
+| ------------- |:-------------:| 
+| HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | 
+| CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
+| Git | [https://git-scm.com/](https://git-scm.com/)     |  
+|JavaScript | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)     |
+HEROKU | [https://www.heroku.com/](https://www.heroku.com/)     |
+Node.js | [https://nodejs.org/en/](https://nodejs.org/en/)     |
+Express.js | [https://expressjs.com/](https://expressjs.com/)     |
+
+
+
+
+
+
+## Description 
+This application is a Note Taker. It allows users to write notes and store them. I used HEROKU, Node, Express.js, JavaScipt, HTML, CSS, and GIT. 
+
+Here is the USER STORY:
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete.
+
+I did this by using the existing code. I installed the required packages, and then created a server.js file, and coded the backend of the website I then deployed the site to HEROKU. 
+
+[Visit the Deployed Site]()
+
+
+
+
+
+## Usage 
+
+To use this website, simply visit the deployed site. You can then click on the "Get Started" button to begin. You can then enter a title and text for your note. Once you have entered the information, you can click the save button in the top right corner. You can then click on the note in the left column to view it. You can also click on the trash can icon to delete the note.
+
+
+![Screenshot](./assets/image.png)
+
+
+
+
+
+## Author Info
+
+
+### Luke Harriman
+
+* [Github](https://github.com/lth1013)
