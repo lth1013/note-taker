@@ -30,3 +30,15 @@ app.post("api/notes", function (req, res) {
   });
 });
 
+// this app.get is for the notes.html page and sends it to the client
+app.get("/notes", function (req, res) {
+  res.sendFile(path.join(__dirname, "develop/public/notes.html"));
+});
+// this app.get is for the index.html page and sends it to the client
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "develop/public/index.html"));
+});
+// this app.get is for the db.json file and sends it to the client
+app.get("/api/notes", function (req, res) {
+  return res.sendFile(path.json(__dirname, "develop/db/db.json"));
+});
